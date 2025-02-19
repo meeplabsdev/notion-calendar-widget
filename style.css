@@ -1,0 +1,68 @@
+:root {
+    --white: var(--foreground) !important;
+    --gray10: color-mix(in oklab, var(--background) 5%, var(--foreground)) !important;
+    --gray30: color-mix(in oklab, var(--background) 10%, var(--foreground)) !important;
+    --gray50: color-mix(in oklab, var(--background) 15%, var(--foreground)) !important;
+    --gray70: color-mix(in oklab, var(--background) 20%, var(--foreground)) !important;
+    --gray100: color-mix(in oklab, var(--background) 25%, var(--foreground)) !important;
+    --gray150: color-mix(in oklab, var(--background) 30%, var(--foreground)) !important;
+    --gray200: color-mix(in oklab, var(--background) 35%, var(--foreground)) !important;
+    --gray250: color-mix(in oklab, var(--background) 40%, var(--foreground)) !important;
+    --gray300: color-mix(in oklab, var(--background) 45%, var(--foreground)) !important;
+    --gray350: color-mix(in oklab, var(--background) 50%, var(--foreground)) !important;
+    --gray400: color-mix(in oklab, var(--background) 55%, var(--foreground)) !important;
+    --gray450: color-mix(in oklab, var(--background) 60%, var(--foreground)) !important;
+    --gray500: color-mix(in oklab, var(--background) 65%, var(--foreground)) !important;
+    --gray550: color-mix(in oklab, var(--background) 70%, var(--foreground)) !important; 
+    --gray600: color-mix(in oklab, var(--background) 75%, var(--foreground)) !important;
+    --gray650: color-mix(in oklab, var(--background) 80%, var(--foreground)) !important;
+    --gray700: color-mix(in oklab, var(--background) 85%, var(--foreground)) !important;
+    --gray750: color-mix(in oklab, var(--background) 90%, var(--foreground)) !important;
+    --gray800: color-mix(in oklab, var(--background) 95%, var(--foreground)) !important;
+    --gray850: color-mix(in oklab, var(--background) 100%, var(--foreground)) !important;
+    --gray870: color-mix(in oklab, var(--background) 100%, var(--foreground)) !important;
+    --gray900: color-mix(in oklab, var(--background) 100%, var(--foreground)) !important;
+    --black: var(--background) !important;
+    --material-contrast: linear-gradient(color-mix(in oklab, var(--background) 78%, var(--foreground)), color-mix(in oklab, var(--background) 75%, var(--foreground))) !important;
+    --material-border-contr-inside: alpha(var(--foreground), 0.12) !important;
+    --highlight-cursor: 0px 1px 2.6px 0px alpha(var(--background), 0.32) !important;
+    --contr-kbs-bg: alpha(var(--foreground), 0.2) !important;
+    --contr-kbs: alpha(var(--foreground), 0.8) !important;
+    --primary100: color-mix(in oklab, var(--color3) 10%, var(--foreground)) !important;
+    --primary200: color-mix(in oklab, var(--color3) 20%, var(--foreground)) !important;
+    --primary300: color-mix(in oklab, var(--color3) 30%, var(--foreground)) !important;
+    --primary400: color-mix(in oklab, var(--color3) 40%, var(--foreground)) !important;
+    --primary500: color-mix(in oklab, var(--color3) 50%, var(--foreground)) !important;
+    --primary600: color-mix(in oklab, var(--color3) 60%, var(--foreground)) !important;
+    --primary700: color-mix(in oklab, var(--color3) 70%, var(--foreground)) !important;
+    --primary800: color-mix(in oklab, var(--color3) 80%, var(--foreground)) !important;
+    --primary900: color-mix(in oklab, var(--color3) 90%, var(--foreground)) !important;
+    --primary500-gradient: linear-gradient(var(--primary500), var(--primary600)) !important;
+    --object-gradient-bg: linear-gradient(color-mix(in oklab, var(--background) 91%, var(--foreground)), color-mix(in oklab, var(--background) 93%, var(--foreground))) !important;
+    --layout-line-divider: color-mix(in oklab, var(--background) 81%, var(--foreground)) !important;
+    --layout-line-divider-elevated: color-mix(in oklab, var(--background) 77%, var(--foreground)) !important;
+    --layout-line-divider-base: color-mix(in oklab, var(--background) 86%, var(--foreground)) !important;
+    --layout-line-grid-v: color-mix(in oklab, var(--background) 81%, var(--foreground)) !important;
+    --layout-line-grid-h: color-mix(in oklab, var(--background) 83%, var(--foreground)) !important;
+    --layout-line-grid-v-wknd: color-mix(in oklab, var(--background) 81%, var(--foreground)) !important;
+    --layout-line-grid-h-wknd: color-mix(in oklab, var(--background) 84%, var(--foreground)) !important;
+    --layout-fill-grid-wknd: color-mix(in oklab, var(--background) 86%, var(--foreground)) !important;
+    --material-dim: alpha(var(--background), 0.12) !important;
+    --material-border-inside: alpha(var(--foreground), 0.05) !important;
+    --elevation-low: 0px 2px 2px 0px alpha(var(--background), 0.15), 0px 4px 8px 0px alpha(var(--background), 0.12), 0px 8px 24px 0px alpha(var(--background), 0.09) !important;
+    --elevation-middle: 0px 4px 8px 0px alpha(var(--background), 0.12), 0px 8px 16px 0px alpha(var(--background), 0.12), 0px 16px 32px 0px alpha(var(--background), 0.12), 0px 32px 64px 0px alpha(var(--background), 0.12) !important;
+    --elevation-high: 0px 4px 8px 0px alpha(var(--background), 0.09), 0px 8px 16px 0px alpha(var(--background), 0.09), 0px 16px 32px 0px alpha(var(--background), 0.12), 0px 32px 64px 0px alpha(var(--background), 0.15), 0px 64px 128px 0px alpha(var(--background), 0.18) !important;
+    --highlight-light: inset 0px -0.5px 0px 0px alpha(var(--background), 0.5), inset 0px 0.5px 0px 0px alpha(var(--foreground), 0.05) !important;
+    --kbs-bg: alpha(var(--foreground), 0.08) !important;
+    --kbs: alpha(var(--foreground), 0.55) !important;
+    --secondary500: var(--color3) !important;
+}
+
+* {
+    --ribbon-color-primary: color-mix(in oklab, var(--color4) 25%, var(--foreground)) !important;
+    --ribbon-color-secondary: color-mix(in oklab, var(--color4) 15%, var(--foreground)) !important;
+    --foreground-color-primary: var(--foreground) !important;
+    --foreground-color-secondary: color-mix(in oklab, var(--foreground) 62%, var(--background)) !important;
+    --text-decoration-color: color-mix(in oklab, var(--color4) 50%, var(--background)) !important;
+    --background-color: color-mix(in oklab, var(--color1) 60%, var(--background)) !important;
+}
