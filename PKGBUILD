@@ -7,7 +7,7 @@ url="https://github.com/meeplabsdev/notion-calendar-widget"
 licence=('MIT')
 depends=()
 makedepends=('npm' 'nodejs')
-source=("$pkgname-pkgver::git+$url.git#tag=$pkgver")
+source=("$pkgname-$pkgver::git+$url.git#tag=$pkgver")
 md5sums=('SKIP')
 
 build() {
