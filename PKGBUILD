@@ -18,8 +18,8 @@ build() {
 
 package() {
 	cd "$pkgname-$pkgver"
-	install -Dm755 "$pkgdir/usr/lib/$pkgname"
-	cp -r out/notion-calendar-widget-*/* "$pkgdir/usr/lib/$pkgname"
-	install -Dm755 "$pkgdir/usr/lib/$pkgname/notion-calendar-widget" "$pkgdir/usr/bin/notion-calendar-widget"
-    	install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+	mkdir -p "$pkgdir/usr/share/$pkgname"
+	cp -r out/notion-calendar-widget-*/* "$pkgdir/usr/share/$pkgname"
+	mkdir -p "$pkgdir/usr/bin"
+	ln -s "/usr/share/$pkgname/notion-calendar-widget" "$pkgdir/usr/bin/notion-calendar-widget"
 }
