@@ -26,7 +26,11 @@ function refreshTheme(style) {
 #main > div > div > div > div > div:nth-child(2) {
   height: fit-content;
 }
-  `;
+
+
+#main > div > div:nth-child(1) {
+  right: 0px;
+}`;
 
   var cpath = path.resolve(os.homedir(), '.cache/wal/colors.css');
   if (fs.existsSync(cpath)) {
