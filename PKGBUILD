@@ -8,7 +8,7 @@ licence=('MIT')
 depends=()
 makedepends=('npm' 'nodejs')
 source=("$pkgname-$pkgver::git+$url.git#tag=$pkgver")
-md5sums=('SKIP')
+md5sums=('5eacc26e3d95f66f246f5830e1fcc1f4')
 
 build() {
 	cd "$pkgname-$pkgver"
