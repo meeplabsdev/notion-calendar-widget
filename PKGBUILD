@@ -1,6 +1,6 @@
 pkgname=notion-calendar-widget
-pkgver=1.0.0
-pkgrel=1
+pkgver=1.0.1
+pkgrel=2
 pkgdesc="A widget window that displays notion calendar as a compact sidebar, that also responds to PYWAL themes."
 arch=('any')
 url="https://github.com/meeplabsdev/notion-calendar-widget"
